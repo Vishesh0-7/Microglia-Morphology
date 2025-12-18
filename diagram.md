@@ -54,7 +54,7 @@ flowchart TD
         CL2["Linear: 320→256<br/>ReLU + Dropout 0.3"]
         CL3["Linear: 256→128<br/>ReLU + Dropout 0.3"]
         CL4["Linear: 128→5<br/>Softmax"]
-        CL5["Output Classes:<br/>Amoeboid, Bipolar,<br/>Hypertrophic, Ramified,<br/>Transitional"]
+        CL5["Output Classes"]
         
         CL1 --> CL2 --> CL3 --> CL4 --> CL5
     end
